@@ -1,0 +1,180 @@
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Seacons - Set 1" id="6708a596-7d8d-4703-9d5f-e5b1fed8f79c" gameId="f44befce-4d6d-4fb9-a286-9585f36aece9" gameVersion="0.0.0.1" version="0.0.0.1">
+  <cards>
+
+    <card id="8bae461f-6a49-4532-a0f4-341f2baf6d35" name="Beneath the Waves" size="Small">
+      <property name="Card Number" value="X:1"/>
+      <property name="Type" value="Upgrade - Armor" />
+      <property name="Blue Pips" value="1" />
+      <property name="DEF" value="1"/>
+      <property name="Text" value="Put on Seacons only. While the upgraded character is defending against an enemy that has Pierce -> Reduce that enemy's Pierce total by 2."/>
+      <property name="Faction" value="Decepticon" />
+      <property name="Rarity" value="Rare" />
+      <property name="Draft Type" value="Battle Card" />
+    </card>
+
+    <card id="7723f217-64b8-4239-b2af-7cc83723c9b5" name="Incendiary Sword" size="Small">
+      <property name="Card Number" value="X:2"/>
+      <property name="Type" value="Upgrade - Weapon" />
+      <property name="Black Pips" value="1" />
+      <property name="ATK" value="1"/>
+      <property name="Text" value="When this is on Snaptrap -> He has +1 ATK. When this is on Piranacon -> He has +2 ATK."/>
+      <property name="Faction" value="Decepticon" />
+      <property name="Rarity" value="Rare" />
+      <property name="Draft Type" value="Battle Card" />
+    </card>
+
+    <card id="7443df4d-5f00-4096-9792-ed6f35994091" name="Seacon Enigma" size="Small">
+      <property name="Card Number" value="X:3"/>
+      <property name="Type" value="Action" />
+      <property name="White Pips" value="1" />
+      <property name="Green Pips" value="1" />
+      <property name="Text" value="If you have Piranacon on the battlefield -> Move 2 damage from Piranacon to an enemy. If you have Snaptrap, Skalor, Tentakil, Nautilator, and Seawing in bot mode on the battlefield and/or in your KO area -> Combine them into Piranacon, Monolithic Menace."/>
+      <property name="Faction" value="Decepticon" />
+      <property name="Rarity" value="Rare" />
+      <property name="Draft Type" value="Battle Card" />
+    </card>
+
+    <card id="ce287225-992e-4f71-b486-6f24a4950d96" name="Nautilator - Underwater Excavations" size="Large">
+      <property name="Card Number" value="X:T1" />
+      <property name="Type" value="Character - Alt Mode" />
+      <property name="ATK" value="2" />
+      <property name="HP" value="5" />
+      <property name="DEF" value="1" />
+      <property name="Stars" value="4" />
+      <property name="Traits" value="Seacon, Beast, Melee" />
+      <property name="Faction" value="Decepticon" />
+      <property name="Text">Pierce 2</property>
+      <property name="Rarity" value="Uncommon" />
+      <property name="Draft Type" value="Large Character" />
+      <alternate name="Nautilator - Underwater Excavations" type="bot" size="Large">
+        <property name="Type" value="Character - Bot Mode" />
+        <property name="ATK" value="3" />
+        <property name="DEF" value="0" />
+        <property name="Text">When you flip to this mode -> Do 1 damage to an enemy in bot or body mode.</property>
+        <property name="Traits" value="Seacon, Ranged" />
+      </alternate>
+    </card>
+
+    <card id="9d9a46c7-4506-4551-aecc-f393f64ffffd" name="Overbite - Undersea Terminator" size="Large">
+      <property name="Card Number" value="X:T2" />
+      <property name="Type" value="Character - Alt Mode" />
+      <property name="ATK" value="2" />
+      <property name="HP" value="5" />
+      <property name="DEF" value="2" />
+      <property name="Stars" value="4" />
+      <property name="Traits" value="Battle Master, Seacon, Beast" />
+      <property name="Faction" value="Decepticon" />
+      <property name="Text">When this is KO'd, play its Upgrade side.</property>
+      <property name="Rarity" value="Uncommon" />
+      <property name="Draft Type" value="Large Character" />
+      <alternate name="Overbite - Undersea Terminator" type="bot" size="Large">
+        <property name="Type" value="Character - Bot Mode" />
+        <property name="ATK" value="3" />
+        <property name="DEF" value="1" />
+        <property name="Text">TAP -> Scrap a [W] card from your hand -> Draw 2 cards, then put a card from your hand on top of your deck. When this is KO'd, play its Upgrade side.</property>
+        <property name="Traits" value="Battle Master, Seacon, Melee" />
+      </alternate>
+      <alternate name="Tidal Wavemaker" type="bot2" size="Small">
+        <property name="Type" value="Upgrade - Weapon" />
+        <property name="ATK" value="2" />
+        <property name="Text">Focus 1, Pierce 2. When you put this on a character -> Repair 2 damage from it. If this would leave the battlefield -> Put it into your KO area instead. </property>
+        <property name="Traits" value="Battle Master"/>
+      </alternate>
+    </card>
+
+    <card id="9a819057-5262-44e6-814b-91a8ef5962e0" name="Seawing - Undersea Reconnaissance" size="Large">
+      <property name="Card Number" value="X:T3" />
+      <property name="Type" value="Character - Alt Mode" />
+      <property name="ATK" value="2" />
+      <property name="HP" value="5" />
+      <property name="DEF" value="1" />
+      <property name="Stars" value="4" />
+      <property name="Traits" value="Seacon, Beast, Specialist" />
+      <property name="Faction" value="Decepticon" />
+      <property name="Text">Stealth</property>
+      <property name="Rarity" value="Uncommon" />
+      <property name="Draft Type" value="Large Character" />
+      <alternate name="Seawing - Undersea Reconnaissance" type="bot" size="Large">
+        <property name="Type" value="Character - Bot Mode" />
+        <property name="ATK" value="3" />
+        <property name="DEF" value="1" />
+        <property name="Text">When you flip to this mode -> You may play a Secret Action.</property>
+        <property name="Traits" value="Seacon, Specialist" />
+      </alternate>
+    </card>
+    <card id="6d76884c-5f49-4cf3-b03b-e1ba6e519af3" name="Skalor - Amphibious Assault" size="Large">
+      <property name="Card Number" value="X:T4" />
+      <property name="Type" value="Character - Alt Mode" />
+      <property name="ATK" value="1" />
+      <property name="HP" value="6" />
+      <property name="DEF" value="2" />
+      <property name="Stars" value="4" />
+      <property name="Traits" value="Seacon, Beast, Melee" />
+      <property name="Faction" value="Decepticon" />
+      <property name="Text">Tough 1</property>
+      <property name="Rarity" value="Uncommon" />
+      <property name="Draft Type" value="Large Character" />
+      <alternate name="Skalor - Amphibious Assault" type="bot" size="Large">
+        <property name="Type" value="Character - Bot Mode" />
+        <property name="ATK" value="4" />
+        <property name="DEF" value="0" />
+        <property name="Traits" value="Seacon, XYZ" />
+      </alternate>
+    </card>
+    <card id="b248d934-677e-4767-a790-641bd95a969f" name="Snaptrap - Seacon Leader" size="Large">
+      <property name="Card Number" value="X:T5" />
+      <property name="Type" value="Character - Alt Mode" />
+      <property name="ATK" value="2" />
+      <property name="HP" value="7" />
+      <property name="DEF" value="2" />
+      <property name="Stars" value="5" />
+      <property name="Traits" value="Leader, Seacon, Beast" />
+      <property name="Faction" value="Decepticon" />
+      <property name="Text">Enemy characters cannot move damage to your characters.</property>
+      <property name="Rarity" value="Uncommon" />
+      <property name="Draft Type" value="Large Character" />
+      <alternate name="Snaptrap - Seacon Leader" type="bot" size="Large">
+        <property name="Type" value="Character - Bot Mode" />
+        <property name="ATK" value="3" />
+        <property name="DEF" value="1" />
+        <property name="Text">When you flip to this mode -> Each of your other Seacons gets Pierce 1 until end of turn.</property>
+        <property name="Traits" value="Leader, Seacon, Ranged" />
+      </alternate>
+    </card>
+    <card id="553bedea-3622-47a7-8e9f-056204174335" name="Tentakil - Underwater Demolition" size="Large">
+      <property name="Card Number" value="X:T6" />
+      <property name="Type" value="Character - Alt Mode" />
+      <property name="ATK" value="2" />
+      <property name="HP" value="6" />
+      <property name="DEF" value="1" />
+      <property name="Stars" value="4" />
+      <property name="Traits" value="Seacon, Beast, Melee" />
+      <property name="Faction" value="Decepticon" />
+      <property name="Text">When this attacks and you flip at least [O][B] -> Draw a card.</property>
+      <property name="Rarity" value="Uncommon" />
+      <property name="Draft Type" value="Large Character" />
+      <alternate name="Tentakil - Underwater Demolition" type="bot" size="Large">
+        <property name="Type" value="Character - Bot Mode" />
+        <property name="ATK" value="3" />
+        <property name="DEF" value="1" />
+        <property name="Text">When this damages an enemy -> Scrap an Upgrade on that enemy.</property>
+        <property name="Traits" value="Seacon, Melee" />
+      </alternate>
+    </card>
+
+    <card id="03938f7a-6ba5-48e0-8ea7-31313c8eb125" name="Piranacon - Monolithic Menace" size="Extra Large">
+      <property name="Card Number" value="X:" />
+      <property name="Type" value="Character - Combiner Mode" />
+      <property name="ATK" value="6" />
+      <property name="HP" value="29" />
+      <property name="DEF" value="2" />
+      <property name="Stars" value="21" />
+      <property name="Traits" value="Seacon, Melee" />
+      <property name="Faction" value="Decepticon" />
+      <property name="Text">Tough 2, Pierce 2. This has 2 Weapon slots. When this is combined -> If Tidal Wavemaker is in your KO area, you may put it on this.</property>
+      <property name="Draft Type" value="Excluded" />
+    </card>
+
+  </cards>
+</set>
+
